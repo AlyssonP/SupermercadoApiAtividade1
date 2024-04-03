@@ -32,6 +32,7 @@ def postProduto():
   
   return ({"msg":"There was an error when creating product"}, 500)
 
+
 # CRUD Usuarios
 @api.get("/usuarios")
 def usuarios():
@@ -57,6 +58,7 @@ def postUsuario():
   
   return ({"msg":"There was an error when creating user"}, 500)
 
+
 # CRUD Setores
 @api.get("/setores")
 def setores():
@@ -81,6 +83,7 @@ def postSetores():
     return ({"msg":"Setor created"}, 201)
   
   return ({"msg":"There was an error when creating setor"}, 500)
+
 
 # CRUD Categorias
 @api.get("/categorias")
